@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descubre el secreto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images.ico">
+</head>
+<body>
+  <h1 class="titulo">&#x1F575; #Enigma Challenge</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto">
+        <h3>Solo letras minúsculas, sin acento</h3>
+      </label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="btn" type="button"  onclick="encriptar()" value="encriptálo" id="btn-encriptar">
+        <input class="btn" type="button" onclick="desencriptar()" value="desencríptalo" id="btn-desencriptar">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h3 id="">Este es tu texto encriptado:</h3>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" onclick="copiar()" type="submit" value="copiar" id="btn-copy" readonly>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+         <h2 class="tituloSeccion">Contáctame</h2>
+     </div>
+     <div class="git">
+         <a href="https://github.com/Miguelsimancas" class="botonGit">
+             <i class="fab fa-github"></i>
+         </a>
+     </div>
+
+     <div class="contenedor">Proyecto creado  por  Miguel Simancas para el Challenge Alura + ORACLE: Principiante en Programacion.</p>
+
+     </div>
+
+</footer>
+  <script src="https://kit.fontawesome.com/48400c72b3.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
